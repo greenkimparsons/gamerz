@@ -5,10 +5,10 @@ const withAuth = require('../utils/auth');
 router.get('/', async (req, res) => {
   try {
     // Get all games and JOIN with user data
-    const platformData = await Platform.findAll({
+    const gameData = await game.findAll({
       include: [
         {
-          model: [User, games]
+          model: [User, games],
           attributes: ['name'],
         },
       ],
