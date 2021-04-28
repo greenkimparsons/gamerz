@@ -3,28 +3,36 @@ const Message = require('./Message');
 const User = require('./User');
 const Console = require('./Console');
 
-User.hasMany(Game, {
-    foreignKey: 'console_id',
-})
+//User.hasMany(Game, {
+  //  foreignKey: 'console_id',
+//})
 
 User.hasMany(Message, {
     foreignKey: 'console_id',
 })
 
-Game.hasMany(User, {
-    foreignKey: 'console_id',
-})
+// Game.hasMany(User, {
+//     foreignKey: 'console_id',
+// })
 
 Message.belongsTo(User, {
     foreignKey: 'console_id',
+})
+
+User.hasOne(Console, {
+    foreignKey:'console_id'
 })
 
 Console.belongsTo(User, {
     foreignKey: 'console_id',
 })
 
-Console.hasMany(Game, {
-    foreignKey: 'console_id',
-})
+// Console.hasMany(Game, {
+//     foreignKey: 'console_id',
+// })
+
+// Game.belongsTo(Console, {
+//     foreignKey: 'console_id',
+// })
 
 module.exports = { Game, Message, User, Console };

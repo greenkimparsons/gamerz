@@ -15,13 +15,13 @@ Game.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    console_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'console',
-        key: 'id',
-      },
-    },
+    //console_id: {
+      //type: DataTypes.INTEGER,
+      //references: {
+        //model: 'console',
+        //key: 'id',
+     // },
+    //},
   },
   {
     sequelize,
