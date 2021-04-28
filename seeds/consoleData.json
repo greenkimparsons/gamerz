@@ -1,0 +1,19 @@
+[
+    {
+      "name": "X-Box",
+      "id": 1
+    },
+    {
+      "name": "PS",
+      "id": 2
+    },
+    {
+      "name": "PC",
+      "id": 3
+    },
+    {
+     "name": "Nintendo",
+     "id": 4
+    }
+]
+  
