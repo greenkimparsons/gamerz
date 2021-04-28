@@ -15,10 +15,10 @@ Game.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    user_id: {
+    console_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
+        model: 'console',
         key: 'id',
       },
     },
@@ -28,7 +28,7 @@ Game.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Game',
+    modelName: 'game',
   }
 );
 
