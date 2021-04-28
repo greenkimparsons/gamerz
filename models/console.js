@@ -15,10 +15,10 @@ Console.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    user_id: {
+    game_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
+        model: 'game',
         key: 'id',
       },
     },
@@ -28,7 +28,7 @@ Console.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'messagePost',
+    modelName: 'console',
   }
 );
 

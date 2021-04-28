@@ -1,6 +1,7 @@
 const Game = require('./Game');
 const Message = require('./Message');
 const User = require('./User');
+const Console = require('./Console');
 
 User.hasMany(Game, {
     foreignKey: 'game_id',
