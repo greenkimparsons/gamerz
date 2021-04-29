@@ -11,10 +11,10 @@ class User extends Model {
 User.init(
   {
     id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        primaryKey: true,
-        autoIncrement: true,
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
     },
     email: {
       type: DataTypes.STRING,
@@ -32,12 +32,15 @@ User.init(
       },
     },
     console_id: {
-        type: DataTypes.INTEGER,
-        references: {
-          model: 'console',
-          key: 'id',
-        },
+      type: DataTypes.INTEGER,
+      references: {
+        model: "console",
+        key: "id",
       },
+    },
+    message_id: {
+      type: DataTypes.INTEGER,
+    },
   },
   {
     hooks: {

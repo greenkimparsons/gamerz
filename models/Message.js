@@ -37,20 +37,13 @@ Message.init(
           key: 'id',
         },
     },
-    console_id: {
-        type: DataTypes.INTEGER,
-        references: {
-          model: 'console',
-          key: 'id',
-        },
-    },
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'messagePost',
+    modelName: 'message',
   }
 );
 
