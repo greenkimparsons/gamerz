@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
     const gameData = await Game.findAll({
       include: [
         {
-          model: [User, Game],
+          model: Game,
           attributes: ['name'],
         },
       ],
