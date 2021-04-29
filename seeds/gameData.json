@@ -4,15 +4,103 @@
       "id": 1
     },
     {
-      "name": "League of Legends",
+      "name": "Call of Duty: Cold War / Warzone",
       "id": 2
     },
     {
-      "name": "Mario Kart",
+      "name": "Call of Duty: Cold War / Warzone",
       "id": 3
     },
     {
+      "name": "League of Legends",
+      "id": 4
+    },
+    {
+      "name": "Mario Kart 8",
+      "id": 5
+    },
+    {
      "name": "Rocket League",
-     "id": 4
+     "id": 6
+    },
+    {
+      "name": "Rocket League",
+      "id": 7
+    },
+    {
+      "name": "Rocket League",
+      "id": 8
+    },
+    {
+      "name": "Rocket League",
+      "id": 9
+    },
+    {
+      "name": "Minecraft",
+      "id": 10
+    },
+    {
+      "name": "Minecraft",
+      "id": 11
+    },
+    {
+      "name": "Minecraft",
+      "id": 12
+    },
+    {
+      "name": "Minecraft",
+      "id": 13
+    },
+    {
+      "name": "Overwatch",
+      "id": 14
+    },
+    {
+      "name": "Overwatch",
+      "id": 15
+    },
+    {
+      "name": "Overwatch",
+      "id": 16
+    },
+    {
+      "name": "Overwatch",
+      "id": 17
+    },
+    {
+      "name": "Fortnite",
+      "id": 18
+    },
+    {
+      "name": "Fortnite",
+      "id": 19
+    },
+    {
+      "name": "Fortnite",
+      "id": 20
+    },
+    {
+      "name": "Fortnite",
+      "id": 21
+    },
+    {
+      "name": "Counter Strike: Global Offensive",
+      "id": 22
+    },
+    {
+      "name": "Super Smash Bros. Ultimate",
+      "id": 23
+    },
+    {
+      "name": "Grand Theft Auto V",
+      "id": 24
+    },
+    {
+      "name": "Grand Theft Auto V",
+      "id": 25
+    },
+    {
+      "name": "Grand Theft Auto V",
+      "id": 26
     }
 ]
