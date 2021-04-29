@@ -40,10 +40,6 @@ User.init(
     },
     message_id: {
       type: DataTypes.INTEGER,
-      references: {
-        model: "message",
-        key: "id",
-      },
     },
   },
   {
