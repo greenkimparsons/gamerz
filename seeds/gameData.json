@@ -1,106 +1,134 @@
 [
     {
       "name": "Call of Duty: Cold War / Warzone",
-      "console_id": 1
+      "console_id": 1,
+      "image": "coldWar.jpeg"
     },
     {
       "name": "Call of Duty: Cold War / Warzone",
-      "console_id": 2
+      "console_id": 2,
+      "image": "coldWar.jpeg"
     },
     {
       "name": "Call of Duty: Cold War / Warzone",
-      "console_id": 3
+      "console_id": 3,
+      "image": "coldWar.jpeg"
     },
     {
       "name": "League of Legends",
-      "console_id": 3
+      "console_id": 3,
+      "image": "league-of-legends.jpeg"
     },
     {
       "name": "Mario Kart 8",
-      "console_id": 4
+      "console_id": 4,
+      "image": "marioKart.jpeg"
     },
     {
      "name": "Rocket League",
-     "console_id": 1
+     "console_id": 1,
+     "image": "rocketLeague.jpeg"
     },
     {
       "name": "Rocket League",
-      "console_id": 2
+      "console_id": 2,
+      "image": "rocketLeague.jpeg"
+
     },
     {
       "name": "Rocket League",
-      "console_id": 3
+      "console_id": 3,
+      "image": "rocketLeague.jpeg"
+
     },
     {
       "name": "Rocket League",
-      "console_id": 4
+      "console_id": 4,
+      "image": "rocketLeague.jpeg"
     },
     {
       "name": "Minecraft",
-      "console_id": 1
+      "console_id": 1,
+      "image": "minecraft.jpeg"
     },
     {
       "name": "Minecraft",
-      "console_id": 2
+      "console_id": 2,
+      "image": "minecraft.jpeg"
     },
     {
       "name": "Minecraft",
-      "console_id": 3
+      "console_id": 3,
+      "image": "minecraft.jpeg"
     },
     {
       "name": "Minecraft",
-      "console_id": 4
+      "console_id": 4,
+      "image": "minecraft.jpeg"
     },
     {
       "name": "Overwatch",
-      "console_id": 1
+      "console_id": 1,
+      "image": "overwatch.png"
     },
     {
       "name": "Overwatch",
-      "console_id": 2
+      "console_id": 2,
+      "image": "overwatch.png"
     },
     {
       "name": "Overwatch",
-      "console_id": 3
+      "console_id": 3,
+      "image": "overwatch.png"
     },
     {
       "name": "Overwatch",
-      "console_id": 4
+      "console_id": 4,
+      "image": "overwatch.png"
     },
     {
       "name": "Fortnite",
-      "console_id": 1
+      "console_id": 1,
+      "image": "fortnite.jpeg"
     },
     {
       "name": "Fortnite",
-      "console_id": 2
+      "console_id": 2,
+      "image": "fortnite.jpeg"
     },
     {
       "name": "Fortnite",
-      "console_id": 3
+      "console_id": 3,
+      "image": "fortnite.jpeg"
     },
     {
       "name": "Fortnite",
-      "console_id": 4
+      "console_id": 4,
+      "image": "fortnite.jpeg"
     },
     {
       "name": "Counter Strike: Global Offensive",
-      "console_id": 3
+      "console_id": 3,
+      "image": "counterStrike.png"
     },
     {
       "name": "Super Smash Bros. Ultimate",
-      "console_id": 4
+      "console_id": 4,
+      "image": "superSmash.jpeg"
     },
     {
       "name": "Grand Theft Auto V",
-      "console_id": 1
+      "console_id": 1,
+      "image": "gtaV.jpeg"
     },
     {
       "name": "Grand Theft Auto V",
-      "console_id": 2
+      "console_id": 2,
+      "image": "gtaV.jpeg"
     },
     {
       "name": "Grand Theft Auto V",
-      "console_id": 3
+      "console_id": 3,
+      "image": "gtaV.jpeg"
     }
 ]

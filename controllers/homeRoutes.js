@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Game, User } = require('../models');
+const { Game, User, Console } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -26,8 +26,7 @@ router.get('/game/:id', async (req, res) => {
     const gameData = await Game.findByPk(req.params.id, {
       include: [
         {
-          model: User, Game,
-          attributes: ['name'],
+          model: User, Console,
         },
       ],
     });
