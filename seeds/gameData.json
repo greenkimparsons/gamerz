@@ -13,11 +13,11 @@
     },
     {
       "name": "League of Legends",
-      "console_id": 4
+      "console_id": 3
     },
     {
       "name": "Mario Kart 8",
-      "console_id": 1
+      "console_id": 4
     },
     {
      "name": "Rocket League",
@@ -25,15 +25,15 @@
     },
     {
       "name": "Rocket League",
-      "console_id": 1
+      "console_id": 2
     },
     {
       "name": "Rocket League",
-      "console_id": 1
+      "console_id": 3
     },
     {
       "name": "Rocket League",
-      "console_id": 1
+      "console_id": 4
     },
     {
       "name": "Minecraft",
@@ -41,15 +41,15 @@
     },
     {
       "name": "Minecraft",
-      "console_id": 1
+      "console_id": 2
     },
     {
       "name": "Minecraft",
-      "console_id": 1
+      "console_id": 3
     },
     {
       "name": "Minecraft",
-      "console_id": 1
+      "console_id": 4
     },
     {
       "name": "Overwatch",
@@ -57,15 +57,15 @@
     },
     {
       "name": "Overwatch",
-      "console_id": 1
+      "console_id": 2
     },
     {
       "name": "Overwatch",
-      "console_id": 1
+      "console_id": 3
     },
     {
       "name": "Overwatch",
-      "console_id": 1
+      "console_id": 4
     },
     {
       "name": "Fortnite",
@@ -73,23 +73,23 @@
     },
     {
       "name": "Fortnite",
-      "console_id": 1
+      "console_id": 2
     },
     {
       "name": "Fortnite",
-      "console_id": 1
+      "console_id": 3
     },
     {
       "name": "Fortnite",
-      "console_id": 1
+      "console_id": 4
     },
     {
       "name": "Counter Strike: Global Offensive",
-      "console_id": 1
+      "console_id": 3
     },
     {
       "name": "Super Smash Bros. Ultimate",
-      "console_id": 1
+      "console_id": 4
     },
     {
       "name": "Grand Theft Auto V",
@@ -97,10 +97,10 @@
     },
     {
       "name": "Grand Theft Auto V",
-      "console_id": 1
+      "console_id": 2
     },
     {
       "name": "Grand Theft Auto V",
-      "console_id": 1
+      "console_id": 3
     }
 ]
