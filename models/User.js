@@ -31,16 +31,6 @@ User.init(
         len: [8],
       },
     },
-    console_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: "console",
-        key: "id",
-      },
-    },
-    message_id: {
-      type: DataTypes.INTEGER,
-    },
   },
   {
     hooks: {
