@@ -21,12 +21,13 @@ Game.init(
       references: {
         model: 'console',
         key: 'id',
-     },
+     }
+    },
      image: {
        type: DataTypes.STRING,
+       allowNull: false
      }
-    }
-  },
+    },
   {
     sequelize,
     timestamps: false,
