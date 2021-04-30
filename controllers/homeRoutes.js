@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const { Game, User, Console } = require('../models');
+const { Game, User, Console, Message } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
   try {
-    // Get all games and JOIN with user data
+    // Get all games
     const gameData = await Game.findAll({
     });
 
@@ -26,15 +26,25 @@ router.get('/game/:id', async (req, res) => {
     const gameData = await Game.findByPk(req.params.id, {
       include: [
         {
-          model: User, Console,
+          model: Console, 
+          attributes: ["name"]
         },
+        {
+          model: Message,
+          attributes: ["name" , "description"]
+        }
       ],
     });
 
     const game = gameData.get({ plain: true });
+    // const message = messageData.get({ plain: true});
+    console.log("game here", game);
+    // console.log("msg here", message);
 
     res.render('game', {
-      ...game,
+      ...game, 
+      // message,
+
       logged_in: req.session.logged_in
     });
   } catch (err) {
@@ -43,12 +53,12 @@ router.get('/game/:id', async (req, res) => {
 });
 
 // Use withAuth middleware to prevent access to route
-router.get('/profile', withAuth, async (req, res) => {
+router.get('/loggedin', withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Game }],
+      include: [{ model: Game, Message }],
     });
 
     const user = userData.get({ plain: true });
