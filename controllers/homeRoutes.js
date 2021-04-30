@@ -4,7 +4,7 @@ const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
   try {
-    // Get all games and JOIN with user data
+    // Get all games 
     const gameData = await Game.findAll({
     });
 
