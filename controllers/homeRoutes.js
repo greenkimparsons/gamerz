@@ -6,12 +6,6 @@ router.get('/', async (req, res) => {
   try {
     // Get all games and JOIN with user data
     const gameData = await Game.findAll({
-      include: [
-        {
-          model: Game,
-          attributes: ['name'],
-        },
-      ],
     });
 
     // Serialize data so the template can read it
