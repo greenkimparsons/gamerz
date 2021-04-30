@@ -32,7 +32,7 @@ router.get('/game/:id', async (req, res) => {
     const gameData = await Game.findByPk(req.params.id, {
       include: [
         {
-          model: User, Game
+          model: User, Game,
           attributes: ['name'],
         },
       ],
