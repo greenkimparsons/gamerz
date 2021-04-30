@@ -1,15 +1,21 @@
 [
     {
       "name": "John Doe",
-      "description": "I'm spending so much time on Warzone. Who wants to win together?"
+      "description": "I'm spending so much time on Warzone. Who wants to win together?",
+      "user_id": "1",
+      "game_id": "1"
     },
     {
       "name": "David Smith",
-      "description": "Come watch me on Twitch"
+      "description": "Come watch me on Twitch",
+      "user_id": "1",
+      "game_id": "1"
     },
     {
       "name": "Louis Johnson",
-      "description": "Anyone playing from the West Coast?!"
+      "description": "Anyone playing from the West Coast?!",
+      "user_id": "1",
+      "game_id": "1"
     }
   ]
   

@@ -1,106 +1,106 @@
 [
     {
       "name": "Call of Duty: Cold War / Warzone",
-      "id": 1
+      "console_id": 1
     },
     {
       "name": "Call of Duty: Cold War / Warzone",
-      "id": 2
+      "console_id": 2
     },
     {
       "name": "Call of Duty: Cold War / Warzone",
-      "id": 3
+      "console_id": 3
     },
     {
       "name": "League of Legends",
-      "id": 4
+      "console_id": 4
     },
     {
       "name": "Mario Kart 8",
-      "id": 5
+      "console_id": 1
     },
     {
      "name": "Rocket League",
-     "id": 6
+     "console_id": 1
     },
     {
       "name": "Rocket League",
-      "id": 7
+      "console_id": 1
     },
     {
       "name": "Rocket League",
-      "id": 8
+      "console_id": 1
     },
     {
       "name": "Rocket League",
-      "id": 9
+      "console_id": 1
     },
     {
       "name": "Minecraft",
-      "id": 10
+      "console_id": 1
     },
     {
       "name": "Minecraft",
-      "id": 11
+      "console_id": 1
     },
     {
       "name": "Minecraft",
-      "id": 12
+      "console_id": 1
     },
     {
       "name": "Minecraft",
-      "id": 13
+      "console_id": 1
     },
     {
       "name": "Overwatch",
-      "id": 14
+      "console_id": 1
     },
     {
       "name": "Overwatch",
-      "id": 15
+      "console_id": 1
     },
     {
       "name": "Overwatch",
-      "id": 16
+      "console_id": 1
     },
     {
       "name": "Overwatch",
-      "id": 17
+      "console_id": 1
     },
     {
       "name": "Fortnite",
-      "id": 18
+      "console_id": 1
     },
     {
       "name": "Fortnite",
-      "id": 19
+      "console_id": 1
     },
     {
       "name": "Fortnite",
-      "id": 20
+      "console_id": 1
     },
     {
       "name": "Fortnite",
-      "id": 21
+      "console_id": 1
     },
     {
       "name": "Counter Strike: Global Offensive",
-      "id": 22
+      "console_id": 1
     },
     {
       "name": "Super Smash Bros. Ultimate",
-      "id": 23
+      "console_id": 1
     },
     {
       "name": "Grand Theft Auto V",
-      "id": 24
+      "console_id": 1
     },
     {
       "name": "Grand Theft Auto V",
-      "id": 25
+      "console_id": 1
     },
     {
       "name": "Grand Theft Auto V",
-      "id": 26
+      "console_id": 1
     }
 ]

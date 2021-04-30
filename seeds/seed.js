@@ -14,13 +14,13 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  for (const message of messageData) {
-    await Message.create({
-      ...message,
+  for (const console of consoleData) {
+    await Console.create({
+      ...console,
       user_id: users[Math.floor(Math.random() * users.length)].id,
     });
   }
-  
+
   for (const game of gameData) {
     await Game.create({
       ...game,
@@ -28,12 +28,16 @@ const seedDatabase = async () => {
     });
   }
   
-  for (const console of consoleData) {
-    await Console.create({
-      ...console,
+  for (const message of messageData) {
+    await Message.create({
+      ...message,
       user_id: users[Math.floor(Math.random() * users.length)].id,
     });
   }
+  
+
+  
+
 
   process.exit(0);
 };

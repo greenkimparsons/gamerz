@@ -22,10 +22,7 @@ Game.init(
         model: 'console',
         key: 'id',
      },
-    },
-    message_id: {
-      type: DataTypes.INTEGER,
-    },
+    }
   },
   {
     sequelize,
