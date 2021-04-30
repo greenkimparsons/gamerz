@@ -22,6 +22,9 @@ Game.init(
         model: 'console',
         key: 'id',
      },
+     image: {
+       type: DataTypes.STRING,
+     }
     }
   },
   {
