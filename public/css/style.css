@@ -1,7 +1,21 @@
+* {
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: orangered;
+}
+
 #links {
     color: white;
 }
 
+#container {
+    border-radius: 6px;
+    border-color: slateblue;
+    background-color: slategrey;
+} 
 
 /* carousel */
 @media (max-width: 768px) {
