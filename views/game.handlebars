@@ -10,7 +10,6 @@
       </div>
     </div>
 
-
     <div class="card">
       <div class="input-group mb-3">
         <label for="comment"> </label>
@@ -29,6 +28,21 @@
     </div>
   </div>
 
+  <div>
+      <!-- Loop over each object in the projects array -->
+      {{#each messages as |message| }}
+      <div class="row mb-4 message">
+        <div class="col-md-5">
+          <p>Created by {{message.name}}</p>
+        </div>
+        <div class="col-md-7">
+          <p>
+            {{message.description}}
+          </p>
+        </div>
+      </div>
+      {{/each}}
+    </div>
 
   <script src="./js/comment.js"></script>
 </body>
