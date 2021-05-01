@@ -1,6 +1,6 @@
 * {
-  background-color: gray;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: lightgray;
+
 }
 
 h2 {
@@ -13,23 +13,20 @@ h2 {
 
 .card-deck {
   padding-top: 40px;
+  background-color: khaki;
+  padding-bottom: 40px;
+
 }
 
-body {
-  background-color: lightgray;
-}
+
 
 .gameheader {
   color: white;
   text-align: center;
-  height: 50px;
+  height: 70px;
   background: grey;
 }
-#container {
-  border-radius: 6px;
-  border-color: slateblue;
-  background-color: slategrey;
-}
+
 
 /* carousel */
 @media (max-width: 768px) {
@@ -63,7 +60,4 @@ body {
 .carousel-inner .carousel-item-right,
 .carousel-inner .carousel-item-left {
   transform: translateX(0);
-}
-
-#navbar {
 }
