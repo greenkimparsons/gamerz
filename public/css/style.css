@@ -11,12 +11,6 @@ h2 {
     color: white;
 }
 
-#container {
-    border-radius: 6px;
-    border-color: slateblue;
-    background-color: slategrey;
-} 
-
 /* carousel */
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
@@ -52,6 +46,9 @@ h2 {
   transform: translateX(0);
 }
 
-#navbar {
-    
+form {
+    justify-content: space-between;
+    border-radius: 6px;
+    border-color: slateblue;
+    background-color: slategrey;
 }
