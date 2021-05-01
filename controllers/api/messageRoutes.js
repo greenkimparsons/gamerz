@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Message } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-router.post('/game', withAuth, async (req, res) => {
+router.post('/', withAuth, async (req, res) => {
   try {
     const newMessagePost = await Message.create({
       ...req.body,
