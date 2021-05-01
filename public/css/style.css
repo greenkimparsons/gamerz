@@ -1,6 +1,6 @@
 * {
-  background-color: gray;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: lightgray;
+
 }
 
 h2 {
@@ -13,23 +13,22 @@ h2 {
 
 .card-deck {
   padding-top: 40px;
+  background-color: lightslategray;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-body {
-  background-color: lightgray;
-}
+
 
 .gameheader {
-  color: white;
+  color: black;
+  font-family: monospace;
   text-align: center;
-  height: 50px;
-  background: grey;
+  height: 80px;
+  padding-top: 10px;
 }
-#container {
-  border-radius: 6px;
-  border-color: slateblue;
-  background-color: slategrey;
-}
+
 
 /* carousel */
 @media (max-width: 768px) {
@@ -63,11 +62,4 @@ body {
 .carousel-inner .carousel-item-right,
 .carousel-inner .carousel-item-left {
   transform: translateX(0);
-}
-
-form {
-    justify-content: space-between;
-    border-radius: 6px;
-    border-color: slateblue;
-    background-color: slategrey;
 }
