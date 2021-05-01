@@ -65,5 +65,9 @@ body {
   transform: translateX(0);
 }
 
-#navbar {
+form {
+    justify-content: space-between;
+    border-radius: 6px;
+    border-color: slateblue;
+    background-color: slategrey;
 }
