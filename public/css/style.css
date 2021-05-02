@@ -3,6 +3,8 @@
   font-size: 20px;
 }
 
+
+
 h2 {
   color: #343a40;
   text-align: center;
@@ -48,17 +50,17 @@ form {
 }
 
 li{
-    color: black;
+    color: #343a40;
     list-style:square;
   }
 
 #notes-header {
-    color: black;
+    color: #343a40;
     margin-top: 10px;
   }
 
 #saved-notes {
-    border: black;
+    border: #343a40;
 }
 
 #note-input {
@@ -69,3 +71,12 @@ li{
   .card-text {
     text-align: center;
   }
+
+  .gamerz {
+color: white;
+font-size: 30px;
+  }
+
+#notepad-container {
+  color: #343a40;
+}
