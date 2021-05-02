@@ -66,3 +66,6 @@ li{
     margin-bottom: 10px
   }
   
+  .card-text {
+    text-align: center;
+  }
