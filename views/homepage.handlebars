@@ -1,9 +1,10 @@
 <!-- Loop over each object in the game array -->
 {{#each games as |game| }}
-<div class="card card-body">
-  <h2>
-    <a href="/game/{{game.id}}">{{game.name}}</a>
-  </h2>
-  <img src="/images/{{image}}" class="img-fluid" alt="game-img">
+<div class="card" style="width: 18rem;">
+  <img src="/images/{{image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{game.name}}</h5>
+    <a href="/game/{{game.id}}" class="btn btn-primary">Play {{game.name}}</a>
+  </div>
 </div>
 {{/each}}
