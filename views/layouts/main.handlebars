@@ -19,7 +19,8 @@
     </a>
     <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
       <ul class="navbar-nav">
-        <!-- Conditionally render login or logout links -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <button class="no-button" id="logout">Logout</button>
         {{else}}
@@ -28,14 +29,14 @@
       </ul>
     </div>
   </nav>
-  {{{body}}}
+
+    {{{body}}}
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/public/js/login.js" type="text/javascript"></script>
+  
+  <script src="/js/login.js" type="text/javascript"></script>
 
 </body>
 

@@ -12,7 +12,7 @@
     {
       "email": "johndoe@aol.com",
       "password": "password12345",
-      "chosenPlatform": "pc"
+      "chosen_platform": "pc"
     }
   ]
   
