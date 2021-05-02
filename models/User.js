@@ -33,7 +33,6 @@ User.init(
     },
     chosenPlatform: {
       type: DataTypes.STRING,
-      allowNull: false,
     }
   },
   {
