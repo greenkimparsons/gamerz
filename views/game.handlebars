@@ -20,8 +20,6 @@
           <div class="input-group-append">
             <button class="btn btn-outline-dark" type="button" id="button-addon2">Post</button>
           </div>
-
-
           <p class="card-text"><small class="text-muted">Last update 3 mins ago</small></p>
         </div>
       </div>
@@ -29,20 +27,20 @@
   </div>
 
   <div>
-      <!-- Loop over each object in the projects array -->
-      {{#each messages as |message| }}
-      <div class="row mb-4 message">
-        <div class="col-md-5">
-          <p>Created by {{message.name}}</p>
-        </div>
-        <div class="col-md-7">
-          <p>
-            {{message.description}}
-          </p>
-        </div>
+    <!-- Loop over each object in the messages array -->
+    {{#each messages as |message| }}
+    <div class="row mb-4 message">
+      <div class="col-md-5">
+        <p>Created by {{message.name}}</p>
       </div>
-      {{/each}}
+      <div class="col-md-7">
+        <p>
+          {{message.description}}
+        </p>
+      </div>
     </div>
+    {{/each}}
+  </div>
 
   <script src="./js/comment.js"></script>
 </body>
