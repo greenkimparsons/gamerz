@@ -11,21 +11,7 @@
     </div>
 
     <div class="card">
-      <div class="input-group mb-3">
-        <label for="comment"> </label>
-        <div class="card-body">
-          <h5 class="card-title">Post Your Comment Here!</h5>
-          <input type="text" class="form-control" placeholder="Comments" aria-label="Recipient's username"
-            aria-describedby="button-addon2">
-          <div class="input-group-append">
-            <button class="btn btn-outline-dark" type="button" id="button-addon2">Post</button>
-          </div>
-          <p class="card-text"><small class="text-muted">Last update 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section id="notepad-container" style="margin-top: 16px; width: 100%; margin-right: 10px">
+     <section id="notepad-container" style="margin-top: 16px; width: 100%; margin-right: 10px">
     <form id="note-form">
       <h4>Add a note...</h4>
       <textarea id="note-input" style="width: 100%; margin-right: 10px" placeholder="Type here..."></textarea>
@@ -38,7 +24,10 @@
     </button>
     <h3 id="notes-header" style="padding: 5px">Saved notes</h3>
     <ul id="saved-notes"></ul>
-  </section>
+  </section> 
+      </div>
+
+  
 
   {{#each messages as |message| }}
   <div class="row mb-4 message">
@@ -53,5 +42,5 @@
   </div>
   {{/each}}
   </div>
-  <script src="./public/js/comment.js"></script>
+<script src="/js/comment.js"></script>
 </body>
