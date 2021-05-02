@@ -25,38 +25,33 @@
       </div>
     </div>
   </div>
-<section
-        id="notepad-container"
-        style="margin-top: 16px; width: 100%; margin-right: 10px"
-      >
-        <form id="note-form">
-          <h4>Add a note...</h4>
-          <textarea
-            id="note-input"
-            style="width: 100%; margin-right: 10px"
-            placeholder="Type here..."
-          ></textarea>
-          <button
-            class="btn btn-light"
-            id="submit-button"
-            type="submit"
-            value="submit"
-          >
-            Submit
-          </button>
-        </form>
-        <button
-          class="btn btn-light"
-          id="clear-button"
-          type="button"
-          value="clear-button"
-          style="margin-top: 12px;"
-        >
-          Clear Notes
-        </button>
-        <h3 id="notes-header" style="padding: 5px">Saved notes</h3>
-        <ul id="saved-notes"></ul>
-      </section>
+  <section id="notepad-container" style="margin-top: 16px; width: 100%; margin-right: 10px">
+    <form id="note-form">
+      <h4>Add a note...</h4>
+      <textarea id="note-input" style="width: 100%; margin-right: 10px" placeholder="Type here..."></textarea>
+      <button class="btn btn-light" id="submit-button" type="submit" value="submit">
+        Submit
+      </button>
+    </form>
+    <button class="btn btn-light" id="clear-button" type="button" value="clear-button" style="margin-top: 12px;">
+      Clear Notes
+    </button>
+    <h3 id="notes-header" style="padding: 5px">Saved notes</h3>
+    <ul id="saved-notes"></ul>
+  </section>
 
+  {{#each messages as |message| }}
+  <div class="row mb-4 message">
+    <div class="col-md-5">
+      <p>Created by {{message.name}}</p>
+    </div>
+    <div class="col-md-7">
+      <p>
+        {{message.description}}
+      </p>
+    </div>
+  </div>
+  {{/each}}
+  </div>
   <script src="/public/js/comment.js"></script>
 </body>
