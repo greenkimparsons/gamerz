@@ -31,9 +31,10 @@ User.init(
         len: [8],
       },
     },
-    chosenPlatform: {
+    chosen_platform: {
       type: DataTypes.STRING,
-    }
+      allowNull: false,
+    },
   },
   {
     hooks: {

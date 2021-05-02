@@ -1,15 +1,18 @@
 [
     {
       "email": "sal@hotmail.com",
-      "password": "password12345"
+      "password": "password12345",
+      "chosen_platform": "pc"
     },
     {
       "email": "gabriella@gmail.com",
-      "password": "password12345"
+      "password": "password12345",
+      "chosen_platform": "x-box"
     },
     {
       "email": "johndoe@aol.com",
-      "password": "password12345"
+      "password": "password12345",
+      "chosen_platform": "nintendo"
     }
   ]
   
