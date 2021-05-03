@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Game, User, Console, Message } = require('../models');
 const withAuth = require('../utils/auth');
-
+ 
 router.get('/', async (req, res) => {
   try {
     // Get all games
