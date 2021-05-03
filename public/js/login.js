@@ -39,22 +39,41 @@ $(document).ready(function () {
       }
     }
 
-    if (name && email && password && chosen_platform) {
-      const response = await fetch("/api/users", {
-        method: "POST",
-        body: JSON.stringify({ name, email, password, chosen_platform }),
-        headers: {"Content-Type": "application/json"}
-      });
+    //name val
+    if (name.trim() === "") {
+      alert("Please enter a name");
+      return;
+    }
 
-      // console.log(JSON.stringify({ name, email, password, chosen_platform }))
+    //email val
+    if (
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+        email
+      )
+    ) {
+    } else {
+      alert("You have entered an invalid email address!");
+      return;
+    }
 
-     
+    //password val
+    if (password.length < 8) {
+      alert("password must be at least 8 characters long");
+      return;
+    }
 
-      if (response.ok) {
-        document.location.replace("/");
-      } else {
-        console.log(response.statusText);
-      }
+    const response = await fetch("/api/users", {
+      method: "POST",
+      body: JSON.stringify({ name, email, password, chosen_platform }),
+      headers: { "Content-Type": "application/json" },
+    });
+
+    // console.log(JSON.stringify({ name, email, password, chosen_platform }))
+
+    if (response.ok) {
+      document.location.replace("/");
+    } else {
+      console.log(response.statusText);
     }
   };
 
