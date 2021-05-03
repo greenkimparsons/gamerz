@@ -40,21 +40,21 @@ $(document).ready(function () {
     }
 
     if (name && email && password && chosen_platform) {
-      const response = await fetch("/api/users/", {
+      const response = await fetch("/api/users", {
         method: "POST",
         body: JSON.stringify({ name, email, password, chosen_platform }),
         headers: {"Content-Type": "application/json"}
       });
 
-      console.log(JSON.stringify({ name, email, password, chosen_platform }))
+      // console.log(JSON.stringify({ name, email, password, chosen_platform }))
 
      
 
-      // if (response.ok) {
-      //   document.location.replace("/");
-      // } else {
-      //   console.log(response.statusText);
-      // }
+      if (response.ok) {
+        document.location.replace("/");
+      } else {
+        console.log(response.statusText);
+      }
     }
   };
 
