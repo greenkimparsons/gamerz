@@ -90,7 +90,7 @@ li {
 }
 
 body {
-  background-image: url("../../images/gamerlogobkg.jpg");
+  background-image: url("https://cdn.hipwallpaper.com/i/2/11/LcP25S.jpeg");
   background-repeat: repeat;
 }
 
@@ -115,4 +115,8 @@ background-color: rgb(2, 2, 8);
 
 li {
   color: white;
+}
+
+input {
+  color: black;
 }
