@@ -1,3 +1,5 @@
+const { Console } = require("node:console");
+
 $(document).ready(function () {
   const radioButtons = document.querySelectorAll('input[name="platform"]');
 
