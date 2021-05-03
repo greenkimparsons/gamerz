@@ -1,12 +1,11 @@
 * {
   font-family: monospace;
   font-size: 20px;
+  color: white;
 }
 
-
-
 h2 {
-  color: #343a40;
+  color: white;
   text-align: center;
   font-family: monospace;
   font-size: 50px;
@@ -24,7 +23,6 @@ h2 {
   padding-left: 20px;
 }
 
-
 .gameheader {
   color: black;
   font-family: monospace;
@@ -34,49 +32,68 @@ h2 {
 }
 
 form {
-    border-radius: 7px;
-    background-color: rgb(2, 2, 8);
-    justify-content: center;
-    text-align: center;
-    width: fit-content;
-    margin: auto;
-    margin-top: 30px;
-    padding: 9px;
-    border-style: solid;
-    border-color: #343a40;
-    border-width: 4px;
-    color: white;
-    font-size: 20px;
+  border-radius: 7px;
+  background-color: rgb(2, 2, 8);
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+  padding: 9px;
+  border-style: solid;
+  border-color: #343a40;
+  border-width: 4px;
+  color: white;
+  font-size: 20px;
 }
 
-li{
-    color: #343a40;
-    list-style:square;
-  }
+li {
+  color: #343a40;
+  list-style: square;
+}
 
 #notes-header {
-    color: #343a40;
-    margin-top: 10px;
-  }
+  color: #343a40;
+  margin-top: 10px;
+}
 
 #saved-notes {
-    border: #343a40;
+  border: #343a40;
 }
 
 #note-input {
-    margin-top: 10px;
-    margin-bottom: 10px
-  }
-  
-  .card-text {
-    text-align: center;
-  }
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-  .gamerz {
-color: white;
-font-size: 30px;
-  }
+.card-text {
+  text-align: center;
+  color: white;
+}
+
+.gamerz {
+  color: white;
+  font-size: 30px;
+}
 
 #notepad-container {
   color: #343a40;
+}
+
+.card {
+  margin: auto;
+}
+
+body {
+  background-image: url("https://cdn.hipwallpaper.com/i/2/11/LcP25S.jpeg");
+  background-repeat: repeat;
+}
+
+.card-body {
+background-color: rgb(2, 2, 8);
+}
+
+.card-title {
+  background-color: rgb(2, 2, 8);
+  color: white;
 }
